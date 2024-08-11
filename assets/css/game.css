@@ -1,0 +1,141 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+  * {
+    margin: 0;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #FCFCFC;
+}
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+  input, button, textarea, select {
+    font: inherit;
+}
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.header h1 {
+    color: #152938;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.76px;
+}
+
+.header a {
+    color: #FCFCFC;
+    background-color: #FDA214;
+    text-decoration: none;
+    padding: 10px 19px;
+    border-radius: 26px;
+}
+
+.game_4x4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12.29px;
+    margin-bottom: 102px;
+}
+
+.game_4x4 img {
+    width: 72px;
+}
+
+.game_6x6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9.12px;
+    margin-bottom: 102px;
+}
+
+.game_6x6 img {
+    width: 46px;
+}
+
+.timing {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    background-color: #DFE7EC;
+    border-radius: 8px;
+    width: 151px;
+    height: 70px;
+}
+
+.moves {
+    background-color: #DFE7EC;
+    border-radius: 8px;
+    width: 151px;
+    height: 70px;
+}
+
+.timing h3 {
+    color: #7191A5;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.6px;
+    margin-top: 10px;
+}
+
+.timing h1 {
+    color:  #304859;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.76px;
+}
+
+.players {
+    display: flex;
+    gap: 24px;
+}
+
+.player {
+    width: 64px;
+    height: 70px;
+    background-color: #DFE7EC;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.players h3 {
+    color: #7191A5;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.6px;
+}
+
+.players h1 {
+    color:  #304859;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.76px;
+}

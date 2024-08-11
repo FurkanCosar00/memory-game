@@ -1,0 +1,124 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+  * {
+    margin: 0;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #152938;
+}
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+  input, button, textarea, select {
+    font: inherit;
+}
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+.container {
+    background-color: #F2F2F2;
+    width: 327px;
+    height: auto;
+    padding: 24px;
+    border-radius: 26px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.game_over_texts {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 24px;
+}
+
+.game_over_texts h1 {
+    color: #152938;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.76px;
+}
+
+.game_over_texts p {
+    color: #7191A5;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.36px;
+}
+
+.game_over_information {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.player_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 16px;
+    background-color: #DFE7EC;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.player_info h3 {
+    color: #7191A5;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16.12px;
+}
+
+.player_info h2 {
+    color: #304859;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.8px;
+}
+
+.winner01 h3 {
+    color: #FCFCFC;
+}
+
+.winner01 h2 {
+    color: #FCFCFC;
+}
+
+.winner01 {
+    background-color: #152938;
+}
+
+.game_over_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.game_over_buttons a {
+    color: #304859;
+    background-color: #DFE7EC;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.32px;
+    border-radius: 26px;
+    padding: 12px 0px 14px 0px;
+}
+
+.game_over_buttons a:nth-child(1) {
+    color: #FCFCFC;
+    background-color: #FDA214;
+}
